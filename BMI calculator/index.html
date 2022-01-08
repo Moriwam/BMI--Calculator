@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quando&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>BMI | Calculator</title>
+    <!-- javaScript -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="heading">Calculate your Body Mass Index</h1>
+    <div class="img">
+      <img src="./img/bmi.png" alt="" srcset="" />
+      <div class="lower_part">
+        <h1>Find your condition</h1>
+      </div>
+      <div class="wrapper">
+        <p>
+          Enter height (CM): <input type="text" name="" id="height" />
+          <br />
+          <span id="height_error"></span>
+        </p>
+        <p>
+          Enter weight (KG): <input type="text" name="" id="weight" />
+          <span id="weight_error"></span>
+        </p>
+        <button id="btn">Calculate</button>
+        <p id="output"></p>
+      </div>
+    </div>
+  </body>
+</html>
